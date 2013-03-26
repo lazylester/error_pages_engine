@@ -1,0 +1,7 @@
+= ErrorPagesEngine
+
+Implements in a Rails engine the Rails 3.2 pattern for dynamically-generated error pages. (see, for example http://blog.plataformatec.com.br/2012/01/my-five-favorite-hidden-features-in-rails-3-2/)
+
+One motivation for an engine implementation is the fact that the feature requires the Rails production environment configuration. This does not integrate well with an application's test suite.
+
+The other motivation, of course, is it's DRY, and re-usable.
