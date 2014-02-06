@@ -1,2 +1,2 @@
-class ErrorPagesEngine::ApplicationController < ApplicationController
+class ErrorPagesEngine::ApplicationController < ActionController::Base
 end
