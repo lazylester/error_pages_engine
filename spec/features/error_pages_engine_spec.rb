@@ -15,4 +15,9 @@ feature "something" do
     visit test_url('1')
     page.should have_content "rejected"
   end
+
+  scenario "non existent path, with error page layout" do
+    visit '/bad_route'
+    page.should have_content "Application Layout Page"
+  end
 end
