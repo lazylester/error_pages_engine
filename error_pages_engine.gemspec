@@ -16,7 +16,6 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.2.0"
-  s.add_dependency "haml"
 
   s.add_development_dependency 'capybara'
   s.add_development_dependency 'debugger'
