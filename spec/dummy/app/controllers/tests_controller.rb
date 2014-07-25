@@ -1,6 +1,6 @@
 class TestsController < ApplicationController
   def index
-    raise ActiveRecordError
+    raise ActiveRecord::ActiveRecordError
   end
 
   def show
