@@ -34,4 +34,7 @@ Dummy::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  # rails4 config
+  config.eager_load = false
 end
