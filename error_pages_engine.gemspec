@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.add_dependency "capybara"
   s.add_dependency "haml"
   s.add_dependency "uglifier"
-  s.add_dependency 'debugger'
+  s.add_dependency 'byebug'
 
   s.add_development_dependency "sqlite3"
 
